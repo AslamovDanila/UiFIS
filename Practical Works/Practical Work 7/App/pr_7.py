@@ -16,7 +16,7 @@ def main(page: ft.Page):
         fixed = float(input_fixed.value or 0)
         distorted = float(input_distorted.value or 0)
 
-        if records > 0 and errors > 0:
+        if records > 0 and errors > 0:a
             lambda_val = errors / records
             Ki = fixed / errors
             detected = errors - fixed - distorted
